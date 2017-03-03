@@ -5,7 +5,7 @@ package edu.oregonstate.cs361.battleship;
  */
 
 public class Military extends Ship {
-    private boolean stealth;
+    boolean stealth;
 
     public Military(boolean b, String n, int l,Coordinate s, Coordinate e) {
         super(n,l,s,e);
